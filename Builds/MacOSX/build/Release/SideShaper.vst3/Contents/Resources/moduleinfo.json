@@ -1,0 +1,48 @@
+{
+  "Name": "SideShaper",
+  "Version": "1.0.0",
+  "Factory Info": {
+    "Vendor": "DustinMorrisonAudio",
+    "URL": "https://github.com/DustinMorri/",
+    "E-Mail": "dustin.morri@gmail.com",
+    "Flags": {
+      "Unicode": true,
+      "Classes Discardable": false,
+      "Component Non Discardable": false,
+    },
+  },
+  "Classes": [
+    {
+      "CID": "ABCDEF019182FAEB4D616E754C6E746C",
+      "Category": "Audio Module Class",
+      "Name": "SideShaper",
+      "Vendor": "DustinMorrisonAudio",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.8.0",
+      "Sub Categories": [
+        "Fx",
+        "Stereo",
+      ],
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+    {
+      "CID": "ABCDEF011234ABCD4D616E754C6E746C",
+      "Category": "Component Controller Class",
+      "Name": "SideShaper",
+      "Vendor": "DustinMorrisonAudio",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.8.0",
+      "Sub Categories": [
+        "Fx",
+        "Stereo",
+      ],
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+  ],
+}

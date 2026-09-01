@@ -1,0 +1,29 @@
+@prefix lv2:   <http://lv2plug.in/ns/lv2core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix pset:  <http://lv2plug.in/ns/ext/presets#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix ui:    <http://lv2plug.in/ns/extensions/ui#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+<https://github.com/DustinMorri/>
+	a lv2:Plugin ;
+	lv2:binary <SideShaper> ;
+	rdfs:seeAlso <dsp.ttl> .
+
+<https://github.com/DustinMorri/:UI>
+	a ui:CocoaUI ;
+	lv2:binary <SideShaper> ;
+	rdfs:seeAlso <ui.ttl> .
+
+<https://github.com/DustinMorri/:preset1>
+	a pset:Preset ;
+	lv2:appliesTo <https://github.com/DustinMorri/> ;
+	rdfs:label "host init" ;
+	state:state [ <https://github.com/DustinMorri/:Program> "0"^^xsd:int ; ] .
+
+<https://github.com/DustinMorri/:preset2>
+	a pset:Preset ;
+	lv2:appliesTo <https://github.com/DustinMorri/> ;
+	rdfs:label "default" ;
+	state:state [ <https://github.com/DustinMorri/:Program> "1"^^xsd:int ; ] .
+

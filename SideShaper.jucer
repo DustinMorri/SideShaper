@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="LnTlhU" name="SideShaper" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginChannelConfigs="{2, 2}"
+              pluginVST3Category="Stereo" pluginAAXCategory="8192" pluginFormats="buildAAX,buildAU,buildAUv3,buildLV2,buildVST3"
+              companyWebsite="https://github.com/DustinMorri/" companyEmail="dustin.morri@gmail.com"
+              version="1.0.0" bundleIdentifier="com.DustinMorrisonAudio.SideShaper"
+              pluginManufacturer="DustinMorrisonAudio" aaxIdentifier="com.DustinMorrisonAudio.SideShaper"
+              lv2Uri="https://github.com/DustinMorri/">
+  <MAINGROUP id="LdKkSf" name="SideShaper">
+    <GROUP id="{DA2BFEB7-3D62-0196-C3A2-432CC2EC39FA}" name="Fonts">
+      <FILE id="XR2SqX" name="Inter_18pt-Regular.ttf" compile="0" resource="1"
+            file="Fonts/Inter_18pt-Regular.ttf"/>
+    </GROUP>
+    <GROUP id="{C0809B9F-D51B-C7AE-95E9-FC75FEC7B688}" name="Images">
+      <FILE id="ctfAQ0" name="arrow_top_right.png" compile="0" resource="1"
+            file="Images/arrow_top_right.png"/>
+      <FILE id="itlDFL" name="bar_chart.png" compile="0" resource="1" file="Images/bar_chart.png"/>
+      <FILE id="ZcfwjC" name="copy.png" compile="0" resource="1" file="Images/copy.png"/>
+      <FILE id="EIutWQ" name="link.png" compile="0" resource="1" file="Images/link.png"/>
+      <FILE id="SlttyO" name="position_top_right.png" compile="0" resource="1"
+            file="Images/position_top_right.png"/>
+      <FILE id="fVEi81" name="recenter.png" compile="0" resource="1" file="Images/recenter.png"/>
+      <FILE id="yv1mDI" name="scatter_plot.png" compile="0" resource="1"
+            file="Images/scatter_plot.png"/>
+      <FILE id="K0BGeV" name="unlink.png" compile="0" resource="1" file="Images/unlink.png"/>
+      <FILE id="PpAt6s" name="zoom_in.png" compile="0" resource="1" file="Images/zoom_in.png"/>
+      <FILE id="Xo5dHK" name="zoom_out.png" compile="0" resource="1" file="Images/zoom_out.png"/>
+      <FILE id="kndKPS" name="check_box_unchecked.png" compile="0" resource="1"
+            file="Images/check_box_unchecked.png"/>
+      <FILE id="x0eIWj" name="check_box_checked.png" compile="0" resource="1"
+            file="Images/check_box_checked.png"/>
+      <FILE id="rZutiQ" name="solo_disabled.png" compile="0" resource="1"
+            file="Images/solo_disabled.png"/>
+      <FILE id="lIzcKS" name="solo_enabled.png" compile="0" resource="1"
+            file="Images/solo_enabled.png"/>
+      <FILE id="bztXDB" name="limit_vertical_disabled.png" compile="0" resource="1"
+            file="Images/limit_vertical_disabled.png"/>
+      <FILE id="UkAsWr" name="limit_vertical_enabled.png" compile="0" resource="1"
+            file="Images/limit_vertical_enabled.png"/>
+      <FILE id="JaKou2" name="gate_vertical_disabled.png" compile="0" resource="1"
+            file="Images/gate_vertical_disabled.png"/>
+      <FILE id="ZqPMSv" name="gate_vertical_enabled.png" compile="0" resource="1"
+            file="Images/gate_vertical_enabled.png"/>
+      <FILE id="Mh4CCi" name="limit_horizontal_disabled.png" compile="0"
+            resource="1" file="Images/limit_horizontal_disabled.png"/>
+      <FILE id="fmBBo6" name="limit_horizontal_enabled.png" compile="0" resource="1"
+            file="Images/limit_horizontal_enabled.png"/>
+      <FILE id="hpKt8u" name="gate_horizontal_disabled.png" compile="0" resource="1"
+            file="Images/gate_horizontal_disabled.png"/>
+      <FILE id="C3lXjG" name="gate_horizontal_enabled.png" compile="0" resource="1"
+            file="Images/gate_horizontal_enabled.png"/>
+      <FILE id="bfZgly" name="before.png" compile="0" resource="1" file="Images/before.png"/>
+      <FILE id="X1kuSc" name="after.png" compile="0" resource="1" file="Images/after.png"/>
+    </GROUP>
+    <GROUP id="{E0DE1B60-F42F-2D33-1F0A-07E728A18B21}" name="Presets">
+      <FILE id="CltE6E" name="init.xml" compile="0" resource="1" file="Presets/init.xml"/>
+    </GROUP>
+    <GROUP id="{7F1F9750-A856-FB10-AF5F-BC853DB196A6}" name="Source">
+      <FILE id="gFNS0T" name="CustomLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/CustomLookAndFeel.cpp"/>
+      <FILE id="Fqt4yB" name="CustomLookAndFeel.h" compile="0" resource="0"
+            file="Source/CustomLookAndFeel.h"/>
+      <FILE id="FJRl4o" name="DataBuffer.cpp" compile="1" resource="0" file="Source/DataBuffer.cpp"/>
+      <FILE id="VxyuEr" name="DataBuffer.h" compile="0" resource="0" file="Source/DataBuffer.h"/>
+      <FILE id="LqLJLP" name="InOutGrid.h" compile="0" resource="0" file="Source/InOutGrid.h"/>
+      <FILE id="BdaxAW" name="InOutGrid.cpp" compile="1" resource="0" file="Source/InOutGrid.cpp"/>
+      <FILE id="XqROkJ" name="LinearPhaseCrossover.cpp" compile="1" resource="0"
+            file="Source/LinearPhaseCrossover.cpp"/>
+      <FILE id="dx9XXY" name="LinearPhaseCrossover.h" compile="0" resource="0"
+            file="Source/LinearPhaseCrossover.h"/>
+      <FILE id="ijnvIm" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="Utb52W" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="mtFBP2" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="XePPYX" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="bQKbWh" name="SideShaper.cpp" compile="1" resource="0" file="Source/SideShaper.cpp"/>
+      <FILE id="GWBCgO" name="SideShaper.h" compile="0" resource="0" file="Source/SideShaper.h"/>
+      <FILE id="zGHaCW" name="Vectorscope.cpp" compile="1" resource="0" file="Source/Vectorscope.cpp"/>
+      <FILE id="DkJuxw" name="Vectorscope.h" compile="0" resource="0" file="Source/Vectorscope.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SideShaper" extraCompilerFlags="/arch:AVX2"/>
+        <CONFIGURATION name="Release" targetName="SideShaper" isDebug="0" extraCompilerFlags="/arch:AVX2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../juce-8.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../juce-8.0.12-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" aaxBinaryLocation="$(HOME)/Library/Application Support/Avid/Audio/Plug-Ins"/>
+        <CONFIGURATION isDebug="0" name="Release" aaxBinaryLocation="$(HOME)/Library/Application Support/Avid/Audio/Plug-Ins"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:\Users\dusti\Desktop\juce-8.0.12-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:\Users\dusti\Desktop\juce-8.0.12-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\Users\dusti\Desktop\juce-8.0.12-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:\Users\dusti\Desktop\juce-8.0.12-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\Users\dusti\Desktop\juce-8.0.12-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="C:\Users\dusti\Desktop\juce-8.0.12-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:\Users\dusti\Desktop\juce-8.0.12-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_core" path="C:\Users\dusti\Desktop\juce-8.0.12-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\Users\dusti\Desktop\juce-8.0.12-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_dsp" path="C:\Users\dusti\Desktop\juce-8.0.12-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="C:\Users\dusti\Desktop\juce-8.0.12-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\Users\dusti\Desktop\juce-8.0.12-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\Users\dusti\Desktop\juce-8.0.12-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:\Users\dusti\Desktop\juce-8.0.12-windows\JUCE\modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>

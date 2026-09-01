@@ -1,0 +1,30 @@
+#Ignore everything in the Visual Studio build folder except for the release version of the plugins.
+Builds/VisualStudio2022/*
+!Builds/VisualStudio2022/x64/
+Builds/VisualStudio2022/x64/*
+!Builds/VisualStudio2022/x64/Release/
+Builds/VisualStudio2022/x64/Release/*
+
+!Builds/VisualStudio2022/x64/Release/AAX/
+Builds/VisualStudio2022/x64/Release/AAX/*
+!Builds/VisualStudio2022/x64/Release/AAX/SideShaper.aaxplugin/
+
+!Builds/VisualStudio2022/x64/Release/LV2 Plugin/
+Builds/VisualStudio2022/x64/Release/LV2 Plugin/*
+!Builds/VisualStudio2022/x64/Release/LV2 Plugin/SideShaper.lv2/
+
+!Builds/VisualStudio2022/x64/Release/VST3/
+Builds/VisualStudio2022/x64/Release/VST3/*
+!Builds/VisualStudio2022/x64/Release/VST3/SideShaper.vst3/
+
+#Ignore everything in the MacOSX build folder except for the release version of the plugins.
+Builds/MacOSX/*
+!Builds/MacOSX/build/
+Builds/MacOSX/build/*
+!Builds/MacOSX/build/Release/
+Builds/MacOSX/build/Release/*
+!Builds/MacOSX/build/Release/SideShaper.aaxplugin/
+!Builds/MacOSX/build/Release/SideShaper.appex/
+!Builds/MacOSX/build/Release/SideShaper.component/
+!Builds/MacOSX/build/Release/SideShaper.lv2/
+!Builds/MacOSX/build/Release/SideShaper.vst3/
