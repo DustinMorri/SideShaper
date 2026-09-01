@@ -5,8 +5,8 @@
 
 ## Download Folders and First Look
 If you're anything like me, you just want the README to shut up and show you where the download files are, so here you go:  
-For Windows go to the [.\Builds\VisualStudio2022\x64\Release\VST3]([.\Builds\VisualStudio2022\x64\Release\VST3]) folder for the SideShaper.vst3 folder.   
-For Mac go to the [.\Builds\MacOSX\build\Release](.\Builds\MacOSX\build\Release) folder for the SideShaper.component folder.  
+For Windows go to the [https://github.com/DustinMorri/SideShaper/tree/master/Builds/VisualStudio2022/x64/Release](https://github.com/DustinMorri/SideShaper/tree/master/Builds/VisualStudio2022/x64/Release) folder for the SideShaper.vst3 folder.   
+For Mac go to the [https://github.com/DustinMorri/SideShaper/tree/master/Builds/MacOSX/build/Release](https://github.com/DustinMorri/SideShaper/tree/master/Builds/MacOSX/build/Release) folder for the SideShaper.component folder.  
 For Linux, iOS, or Android, compile the JUCE framework including the Projucer application and then open the SideShaper.jucer file with that application with cmake and then compile this program for your build.  
 
 I also have the LV2 and AAX plugins in the release folders as well thanks to the JUCE framework. Keep in mind that it is never a good idea to blindly trust executable code that has been compiled for you. This is the only official place to find this project. Even though I have provided the prebuilt libraries for Mac, be warned that I have only extensively tested this code on Windows 10 in FL Studios. Please backup your music projects before running this. (You know, while you're at it, you should also backup your whole computer. I'm just saying this to be helpful to non-programmers using GitHub.) This code is provided with no warranties and I reserve the right to switch from the GNU AGPL 3.0 license to the JUCE 9 EULA at any time.
